@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Fortress | Financial Advisers</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ── NAV ── -->
+<nav>
+  <a href="#" class="nav-logo">
+    <img src="https://static.wixstatic.com/media/7b70cf_9a003ca774c54b15847aa7a072d3ae8f~mv2.png" alt="My Fortress Logo">
+  </a>
+  <ul class="nav-links">
+    <li><a href="#">Home</a></li>
+    <li><a href="https://www.myfortress.com.au/about-us" target="_blank">About Us</a></li>
+    <li class="nav-dropdown">
+      <a href="https://www.myfortress.com.au/services" target="_blank">Services &#9660;</a>
+      <ul class="dropdown-menu">
+        <li><a href="https://www.myfortress.com.au/financial-planning" target="_blank">Financial Planning</a></li>
+        <li><a href="https://www.myfortress.com.au/insurance-protection" target="_blank">Insurance / Protection</a></li>
+        <li><a href="https://www.myfortress.com.au/investmentstrategies" target="_blank">Investment Strategies</a></li>
+        <li><a href="https://www.myfortress.com.au/testimonials" target="_blank">Testimonials</a></li>
+        <li><a href="https://www.myfortress.com.au/myapp" target="_blank">My Fortress App</a></li>
+      </ul>
+    </li>
+    <li class="nav-dropdown">
+      <a href="#">FREE Seminars &#9660;</a>
+      <ul class="dropdown-menu">
+        <li><a href="https://www.myfortress.com.au/townsvilleseminarsandevents" target="_blank">Townsville Seminars</a></li>
+        <li><a href="https://www.myfortress.com.au/brisbaneseminarsandevents" target="_blank">Brisbane Seminars</a></li>
+      </ul>
+    </li>
+    <li class="nav-dropdown">
+      <a href="https://www.myfortress.com.au/ongoing-education" target="_blank">Ongoing Education &#9660;</a>
+      <ul class="dropdown-menu">
+        <li><a href="https://www.myfortress.com.au/articles" target="_blank">Articles</a></li>
+        <li><a href="https://www.myfortress.com.au/financialknowledgecentre" target="_blank">Financial Knowledge Centre</a></li>
+      </ul>
+    </li>
+    <li><a href="https://www.myfortress.com.au/accounting" target="_blank">Accounting</a></li>
+    <li><a href="https://www.myfortress.com.au/finance" target="_blank">Finance</a></li>
+    <li class="nav-dropdown">
+      <a href="https://www.myfortress.com.au/locations" target="_blank">Locations &#9660;</a>
+      <ul class="dropdown-menu">
+        <li><a href="https://www.myfortress.com.au/townsville" target="_blank">Townsville</a></li>
+        <li><a href="https://www.myfortress.com.au/brisbane" target="_blank">Brisbane</a></li>
+      </ul>
+    </li>
+    <li><a href="https://www.myfortress.com.au/mfcareers" target="_blank">Careers</a></li>
+    <li><a href="https://www.myfortress.com.au/contactus" target="_blank" class="nav-cta">Contact Us</a></li>
+  </ul>
+  <button class="nav-hamburger" id="hamburger" aria-label="Open menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- ── MOBILE DRAWER ── -->
+<div class="mobile-nav" id="mobileNav">
+  <a href="#">Home</a>
+  <a href="https://www.myfortress.com.au/about-us" target="_blank">About Us</a>
+  <span class="mobile-group-label">Services</span>
+  <div class="mobile-sub">
+    <a href="https://www.myfortress.com.au/financial-planning" target="_blank">Financial Planning</a>
+    <a href="https://www.myfortress.com.au/insurance-protection" target="_blank">Insurance / Protection</a>
+    <a href="https://www.myfortress.com.au/investmentstrategies" target="_blank">Investment Strategies</a>
+    <a href="https://www.myfortress.com.au/testimonials" target="_blank">Testimonials</a>
+    <a href="https://www.myfortress.com.au/myapp" target="_blank">My Fortress App</a>
+  </div>
+  <span class="mobile-group-label">FREE Seminars</span>
+  <div class="mobile-sub">
+    <a href="https://www.myfortress.com.au/townsvilleseminarsandevents" target="_blank">Townsville Seminars</a>
+    <a href="https://www.myfortress.com.au/brisbaneseminarsandevents" target="_blank">Brisbane Seminars</a>
+  </div>
+  <span class="mobile-group-label">Ongoing Education</span>
+  <div class="mobile-sub">
+    <a href="https://www.myfortress.com.au/articles" target="_blank">Articles</a>
+    <a href="https://www.myfortress.com.au/financialknowledgecentre" target="_blank">Financial Knowledge Centre</a>
+  </div>
+  <a href="https://www.myfortress.com.au/accounting" target="_blank">Accounting</a>
+  <a href="https://www.myfortress.com.au/finance" target="_blank">Finance</a>
+  <span class="mobile-group-label">Locations</span>
+  <div class="mobile-sub">
+    <a href="https://www.myfortress.com.au/townsville" target="_blank">Townsville</a>
+    <a href="https://www.myfortress.com.au/brisbane" target="_blank">Brisbane</a>
+  </div>
+  <a href="https://www.myfortress.com.au/mfcareers" target="_blank">Careers</a>
+  <a href="https://www.myfortress.com.au/contactus" target="_blank" class="mobile-cta">Contact Us</a>
+</div>
+
+<!-- ── HERO ── -->
+<section class="hero" id="home">
+  <div class="hero-left">
+    <div class="hero-label reveal">
+      <span>Financial Advisers &#8212; Australia</span>
+    </div>
+    <h1 class="hero-h1 reveal reveal-delay-1">
+      Is it time to<br>review your<br><em>financial goals?</em>
+    </h1>
+    <p class="hero-sub reveal reveal-delay-2">
+      Book a complimentary appointment with a My Fortress adviser and take the first step toward creating, protecting and growing your wealth.
+    </p>
+    <div class="hero-actions reveal reveal-delay-3">
+      <a href="https://outlook.office365.com/owa/calendar/MyFortressTownsville@dallecort.onmicrosoft.com/bookings/" target="_blank" class="btn-primary">Book &#8212; Townsville &nbsp;&#8594;</a>
+      <a href="https://www.myfortress.com.au/contactus" target="_blank" class="btn-outline">Book &#8212; Brisbane</a>
+    </div>
+  </div>
+
+  <div class="hero-right">
+    <img src="https://static.wixstatic.com/media/7b70cf_313cd5dad1db48969e8a743001a59dab~mv2.jpg" alt="Financial Goals">
+    <div class="hero-overlay"></div>
+    <div class="hero-badge">
+      <strong>100%</strong>
+      <span>Commitment</span>
+    </div>
+  </div>
+</section>
+
+<!-- ── STATS BAND ── -->
+<div class="stats-band" id="about">
+  <div class="stat-item reveal">
+    <div><div class="stat-num">3,000+</div><div class="stat-label">Members</div></div>
+  </div>
+  <div class="stat-divider"></div>
+  <div class="stat-item reveal reveal-delay-1">
+    <div><div class="stat-num">50+</div><div class="stat-label">Employees</div></div>
+  </div>
+  <div class="stat-divider"></div>
+  <div class="stat-item reveal reveal-delay-2">
+    <div><div class="stat-num">100%</div><div class="stat-label">Commitment</div></div>
+  </div>
+  <div class="stat-divider"></div>
+  <div class="stat-item reveal reveal-delay-3">
+    <div><div class="stat-num">2</div><div class="stat-label">Locations</div></div>
+  </div>
+</div>
+
+<!-- ── SERVICES ── -->
+<section class="services-section" id="services">
+  <div class="container">
+    <div class="section-label reveal"><span>What We Offer</span></div>
+    <h2 class="section-heading reveal reveal-delay-1">A comprehensive range of<br><em>financial services</em></h2>
+    <p class="reveal reveal-delay-2" style="color:var(--muted);max-width:520px;font-size:.95rem;">My Fortress provides expert guidance to assist you in creating, protecting and growing your wealth at every stage of life.</p>
+  </div>
+
+  <div class="container" style="margin-top:0;padding:0 60px">
+    <div class="services-grid">
+
+      <div class="service-card reveal reveal-delay-1">
+        <div class="service-card-num">01</div>
+        <div class="service-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+        </div>
+        <h3>Wealth Creation</h3>
+        <p>Strategic guidance to build lasting wealth through diversified investment and disciplined financial planning.</p>
+        <a href="https://www.myfortress.com.au/financial-planning" target="_blank" class="service-link">Explore &nbsp;&#8594;</a>
+      </div>
+
+      <div class="service-card reveal reveal-delay-2">
+        <div class="service-card-num">02</div>
+        <div class="service-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+        </div>
+        <h3>Retirement Planning</h3>
+        <p>Tailored retirement strategies so you can transition into the next chapter with confidence and security.</p>
+        <a href="https://www.myfortress.com.au/financial-planning" target="_blank" class="service-link">Explore &nbsp;&#8594;</a>
+      </div>
+
+      <div class="service-card reveal reveal-delay-3">
+        <div class="service-card-num">03</div>
+        <div class="service-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        </div>
+        <h3>Insurance &amp; Protection</h3>
+        <p>Comprehensive personal and business insurance solutions to safeguard what matters most.</p>
+        <a href="https://www.myfortress.com.au/insurance-protection" target="_blank" class="service-link">Explore &nbsp;&#8594;</a>
+      </div>
+
+      <div class="service-card reveal reveal-delay-1">
+        <div class="service-card-num">04</div>
+        <div class="service-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg>
+        </div>
+        <h3>Investment Strategies</h3>
+        <p>Evidence-based investment approaches designed to align your portfolio with your goals and risk profile.</p>
+        <a href="https://www.myfortress.com.au/investmentstrategies" target="_blank" class="service-link">Explore &nbsp;&#8594;</a>
+      </div>
+
+      <div class="service-card reveal reveal-delay-2">
+        <div class="service-card-num">05</div>
+        <div class="service-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/><path d="M6 8h4M6 12h8"/></svg>
+        </div>
+        <h3>Debt Management</h3>
+        <p>Smart debt reduction and management strategies that help you take control of your financial future.</p>
+        <a href="https://www.myfortress.com.au/financial-planning" target="_blank" class="service-link">Explore &nbsp;&#8594;</a>
+      </div>
+
+      <div class="service-card reveal reveal-delay-3">
+        <div class="service-card-num">06</div>
+        <div class="service-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+        </div>
+        <h3>Estate Planning</h3>
+        <p>Protect your legacy and ensure your assets are transferred according to your wishes with expert guidance.</p>
+        <a href="https://www.myfortress.com.au/financial-planning" target="_blank" class="service-link">Explore &nbsp;&#8594;</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── SEMINARS ── -->
+<section class="seminars-section" id="seminars">
+  <div class="container">
+    <div class="seminars-inner">
+      <div class="seminars-image reveal">
+        <img src="https://static.wixstatic.com/media/7b70cf_964b2799c3eb47eb92180098ff303777~mv2.jpg" alt="Seminars">
+        <div class="seminars-image-overlay"></div>
+        <div class="seminars-image-tag">
+          <div>
+            <p>Available in</p>
+            <strong>Townsville &amp; Brisbane</strong>
+          </div>
+        </div>
+      </div>
+      <div class="seminars-content">
+        <div class="section-label reveal"><span>Free Events</span></div>
+        <h2 class="section-heading reveal reveal-delay-1">Seminars &amp; <em>Education</em></h2>
+        <p class="reveal reveal-delay-2">A strong focus at My Fortress is education through informative seminars presented by our Financial Advisers. We run a range of different seminars throughout the year.</p>
+        <div class="topics-list reveal reveal-delay-3">
+          <span class="topic-tag">Investment Strategies</span>
+          <span class="topic-tag">Retirement Ready</span>
+          <span class="topic-tag">Borrowing to Invest</span>
+          <span class="topic-tag">Self Managed Super</span>
+          <span class="topic-tag">Economic Update</span>
+          <span class="topic-tag">Money Talks Expo</span>
+        </div>
+        <div class="seminar-locations reveal reveal-delay-4">
+          <a href="https://www.myfortress.com.au/townsvilleseminarsandevents" target="_blank" class="btn-primary" style="font-size:.8rem;padding:14px 28px">Townsville Seminars &#8594;</a>
+          <a href="https://www.myfortress.com.au/brisbaneseminarsandevents" target="_blank" class="btn-outline" style="font-size:.8rem;padding:13px 28px">Brisbane Seminars</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── ACCOUNTING ── -->
+<section class="accounting-section" id="accounting">
+  <div class="container">
+    <div class="accounting-inner">
+      <div class="accounting-content">
+        <div class="section-label reveal"><span>Business Services</span></div>
+        <span class="accounting-logo reveal reveal-delay-1">
+          <img src="https://static.wixstatic.com/media/7b70cf_14b3f9dd9e50423bb25ec0746b16da4d~mv2.png" alt="My Fortress Accounting">
+        </span>
+        <h2 class="section-heading reveal reveal-delay-2">Navigate compliance &amp; <em>tax with confidence</em></h2>
+        <p class="reveal reveal-delay-3" style="color:var(--muted);font-size:.92rem;max-width:440px;margin-bottom:8px;">Let us help you navigate the accounting compliance and tax responsibilities that come with running a business.</p>
+        <div class="accounting-feature reveal reveal-delay-4">
+          <div class="accounting-feature-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/><line x1="12" y1="12" x2="12" y2="16"/><line x1="10" y1="14" x2="14" y2="14"/></svg>
+          </div>
+          <div>
+            <h4>Business Tax &amp; Compliance</h4>
+            <p>Comprehensive accounting services tailored for Australian businesses of every size &#8212; from sole traders to enterprises.</p>
+          </div>
+        </div>
+        <div style="margin-top:32px" class="reveal reveal-delay-5">
+          <a href="https://www.myfortress.com.au/accounting" target="_blank" class="btn-primary" style="font-size:.82rem;padding:14px 32px">Learn More &#8594;</a>
+        </div>
+      </div>
+      <div class="accounting-image reveal reveal-delay-2">
+        <img src="https://static.wixstatic.com/media/7b70cf_8e4ec571ddbe4f2baa58fc6929e30c56~mv2.png" alt="My Fortress Accounting">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── FINANCE ── -->
+<section class="finance-section" id="finance">
+  <div class="container">
+    <div class="finance-inner">
+      <div class="finance-image reveal">
+        <img src="https://static.wixstatic.com/media/7b70cf_a54ef4cf873a45d58924e085bc3b0cd5~mv2.jpg" alt="My Fortress Finance">
+      </div>
+      <div>
+        <div class="section-label reveal"><span>Home Loans</span></div>
+        <span class="finance-logo reveal reveal-delay-1">
+          <img src="https://static.wixstatic.com/media/7b70cf_6496934d00aa4b0483ffa77ed68e0f88~mv2.png" alt="My Fortress Finance">
+        </span>
+        <h2 class="section-heading reveal reveal-delay-2">We work for <em>you</em>.<br>Not the banks.</h2>
+        <div class="finance-points reveal reveal-delay-3">
+          <div class="finance-point">
+            <p>When applying for your home loan directly with a bank, it's likely they won't tell you if there is a better option out there. We compare the market on your behalf.</p>
+          </div>
+          <div class="finance-point">
+            <p>Access to a broad panel of lenders means we can find competitive rates and structures that suit your individual circumstances.</p>
+          </div>
+        </div>
+        <div style="margin-top:36px" class="reveal reveal-delay-4">
+          <a href="https://www.myfortress.com.au/finance" target="_blank" class="btn-primary" style="font-size:.82rem;padding:14px 32px">Learn More &#8594;</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── NEWSLETTER ── -->
+<section class="newsletter-section">
+  <div class="section-label reveal" style="justify-content:center;margin-bottom:16px"><span>Stay Informed</span></div>
+  <h2 class="section-heading reveal reveal-delay-1" style="text-align:center">Latest <em>financial insights</em><br>to your inbox</h2>
+  <p class="reveal reveal-delay-2">Sign up to our newsletter for market updates, seminar announcements and expert advice.</p>
+  <div class="newsletter-form reveal reveal-delay-3">
+    <input type="email" placeholder="Your email address" class="newsletter-input">
+    <button class="newsletter-btn">Subscribe</button>
+  </div>
+</section>
+
+<!-- ── FOOTER ── */
+<footer>
+  <div class="footer-top">
+    <div class="footer-brand">
+      <img src="https://static.wixstatic.com/media/7b70cf_9a003ca774c54b15847aa7a072d3ae8f~mv2.png" alt="My Fortress">
+      <p>My Fortress provides a comprehensive range of services to assist you in creating, protecting and growing your wealth. Serving Townsville and Brisbane.</p>
+      <div class="footer-socials">
+        <a href="https://www.facebook.com/myfortresstownsville" target="_blank" class="social-btn">f</a>
+        <a href="https://www.linkedin.com/company/dalle-cort-financial-services/" target="_blank" class="social-btn">in</a>
+        <a href="https://www.facebook.com/profile.php?id=100088672324496" target="_blank" class="social-btn">f</a>
+        <a href="https://www.linkedin.com/company/my-fortress-brisbane/" target="_blank" class="social-btn">in</a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Services</h4>
+      <ul>
+        <li><a href="https://www.myfortress.com.au/financial-planning" target="_blank">Financial Planning</a></li>
+        <li><a href="https://www.myfortress.com.au/insurance-protection" target="_blank">Insurance / Protection</a></li>
+        <li><a href="https://www.myfortress.com.au/investmentstrategies" target="_blank">Investment Strategies</a></li>
+        <li><a href="https://www.myfortress.com.au/accounting" target="_blank">Accounting</a></li>
+        <li><a href="https://www.myfortress.com.au/finance" target="_blank">Finance</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Company</h4>
+      <ul>
+        <li><a href="https://www.myfortress.com.au/about-us" target="_blank">About Us</a></li>
+        <li><a href="https://www.myfortress.com.au/testimonials" target="_blank">Testimonials</a></li>
+        <li><a href="https://www.myfortress.com.au/myapp" target="_blank">My Fortress App</a></li>
+        <li><a href="https://www.myfortress.com.au/mfcareers" target="_blank">Careers</a></li>
+        <li><a href="https://www.myfortress.com.au/contactus" target="_blank">Contact Us</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Locations</h4>
+      <ul>
+        <li><a href="https://www.myfortress.com.au/townsville" target="_blank">Townsville</a></li>
+        <li><a href="https://www.myfortress.com.au/brisbane" target="_blank">Brisbane</a></li>
+        <li><a href="https://www.myfortress.com.au/townsvilleseminarsandevents" target="_blank">Townsville Seminars</a></li>
+        <li><a href="https://www.myfortress.com.au/brisbaneseminarsandevents" target="_blank">Brisbane Seminars</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div>
+      <p>ABN 24 625 884 988 &nbsp;|&nbsp; AFS Licence 508806 &nbsp;|&nbsp; Registered office at 68 Charters Towers Road, Hermit Park, Queensland 4812</p>
+      <p style="margin-top:8px">The information published on this website is general in nature only. My Fortress Pty Ltd (ACN 625 884 988) has not taken into account any particular person's objectives, financial situation or needs. We recommend investors obtain financial advice specific to their situation.</p>
+    </div>
+    <div>
+      <p style="margin-bottom:10px">&#169; 2026 My Fortress Pty Ltd</p>
+      <div class="footer-legal">
+        <a href="https://www.myfortress.com.au/privacypolicy" target="_blank">Privacy Policy</a>
+        <a href="https://www.myfortress.com.au/complaintspolicy" target="_blank">Complaints</a>
+        <a href="https://www.myfortress.com.au/termsandconditions" target="_blank">Terms</a>
+        <a href="https://www.myfortress.com.au/qualitypolicy" target="_blank">Quality Policy</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
